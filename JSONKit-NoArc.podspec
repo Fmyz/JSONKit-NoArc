@@ -45,8 +45,8 @@
 #pod trunk me
 #查看注册信息,以及发布过得的Pods
 
-#提交{project}.podspec 需要在该文件路径下执行
-#pod trunk push CLRollingCycleView.podspec
+#提交{project}.podspec 需要在该文件路径下执行 如有警告需要 在后面加--allow-warnings
+#pod trunk push CLRollingCycleView.podspec --allow-warnings
 #这条命令做了如下三件事:
 #验证本地的podspec文件,也可以使用 pod lib lint验证
 #上传podspec文件到trunk服务
